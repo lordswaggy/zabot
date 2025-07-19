@@ -1,9 +1,8 @@
 [tool.poetry]
 name = "python-template"
 version = "0.1.0"
-description = "Telegram Bot Project"  # Add a description
-authors = ["lordswaggy <frankydunky911@gmail.com>"]  # Fixed format
-requires-python = ">=3.11"
+description = "Telegram Bot"
+authors = ["Frank Dunky <frankydunky911@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.11"
