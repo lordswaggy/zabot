@@ -1,7 +1,17 @@
-[project]
+[tool.poetry]
 name = "python-template"
 version = "0.1.0"
-description = ""
-authors = ["Your Name <you@example.com>"]
+description = "Telegram Bot Project"  # Add a description
+authors = ["lordswaggy <frankydunky911@gmail.com>"]  # Fixed format
 requires-python = ">=3.11"
-dependencies = []
+
+[tool.poetry.dependencies]
+python = "^3.11"
+python-telegram-bot = "20.7"
+gspread = "^6.2.1"
+oauth2client = "^4.1.3"
+python-dotenv = "^1.1.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
